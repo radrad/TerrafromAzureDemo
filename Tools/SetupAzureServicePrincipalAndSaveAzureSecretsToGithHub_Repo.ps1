@@ -1,7 +1,7 @@
 # Login to Azure
 Connect-AzAccount
 
-$env:GITHUB_TOKEN = "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"
+$env:GITHUB_TOKEN = "<Your PAT token>"
 
 $remoteUrl = git config --get remote.origin.url
 $regex = '.*[:/](.+)/(.+)\.git$'
