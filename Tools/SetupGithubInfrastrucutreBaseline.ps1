@@ -57,3 +57,5 @@ git commit -m "Initial commit to dev branch"
 
 git push -u origin $localDefaultBranch
 
+git add .
+git commit -m "Second commit to dev branch"
