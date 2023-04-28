@@ -10,7 +10,7 @@
 # Get the current folder name
 $folderName = (Get-Item -Path ".\").Name
 
-$env:GITHUB_TOKEN = "<PAT_TOKEN>"
+$env:GITHUB_TOKEN = "<Your PAT token>"
 
 # GitHub API variables
 $repoName = $folderName
