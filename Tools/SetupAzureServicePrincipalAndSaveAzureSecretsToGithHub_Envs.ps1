@@ -1,7 +1,7 @@
 # Login to Azure
 Connect-AzAccount
 
-$env:GITHUB_TOKEN = "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"
+$env:GITHUB_TOKEN = "<Your PAT token>"
 
 # Get the subscription ID and tenant ID
 $subscriptionId = (Get-AzContext).Subscription.Id
